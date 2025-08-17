@@ -124,7 +124,7 @@ export function CaseDetail({ projectId, onBack }: CaseDetailProps) {
             </div>
 
             {/* Process Section - Only show if process exists */}
-            {project.process && (
+            {'process' in project && project.process && (
               <div className="mb-8">
                 <h2 className="text-xl md:text-2xl mb-4">{t('caseDetail.process')}</h2>
                 <div className="bg-gray-100 rounded-lg p-6">

@@ -1,9 +1,7 @@
 import { Card } from './ui/card';
 import { 
-  Monitor, 
   Palette, 
   Volume2, 
-  Camera, 
   Layers, 
   Zap,
   Edit,

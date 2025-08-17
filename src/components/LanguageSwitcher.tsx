@@ -1,4 +1,4 @@
-import { useLanguage, Language } from '../contexts/LanguageContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import { Button } from './ui/button';
 import { Globe } from 'lucide-react';
 
